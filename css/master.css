@@ -1,8 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
     font-family: 'Raleway', sans-serif;
-    box-sizing: border-box;
 }
 
 html{
@@ -30,42 +28,30 @@ p{
 
 }
 
-/* FOTO HOMEPAGE */
-.box{
-    position: relative;
-    display: inline-block;
-}
-
-.box{
-    /* position: absolute;
-    z-index: 999;
-    margin: 0 auto;
-    left: 1%;
-    right: 0;
-    top: 2%; 
-    width: 80%;  */
-position: absolute;
-width: 35%;
-margin-left: 25%;
-z-index:999;
-
-}
-.tekst{
-    position: absolute;
-    z-index: 999;
-    margin: 0 auto;
-    left: 25%;
-    right: 0;
-    top: 2%; 
-    text-align: center;
-    /* width: 80%;  */
-    font-size: 40px;
-}
-
-.foto{
+/* HOMEPAGE */
+.titel{
+    height: 801px;
     width: 100%;
+}
+
+.titel-img{
+    width: 70%;
+    height: 70%;
+}
+
+.img-illustration{
     height: 100%;
+    width: auto;
     margin-left: 70%;
+    margin-top: 5%;
+}
+.titel-txt{
+    position: absolute;
+    color: black;
+    text-align: center;
+    top: 20%;
+    left: 10%;
+    font-size: 36px;
 }
 
 /* OVER */
@@ -150,14 +136,21 @@ z-index:999;
 }
 
 /* FOOTER */
-.footer{
-background-color: #bbd0b6; 
-bottom: 0;
+.footer{ 
+height: 75px;
+width: 100%;
+background-color: #bbd0b6;
+/* bottom: 0;
 right: 0;
 left: 0;
 position: absolute;
 text-align: center;
-padding-top: 10px;
+padding-top: 10px; */
+}
+
+.footer-txt{
+    text-align: center;
+    margin-top: 10px;
 }
 
 .footer-icons{

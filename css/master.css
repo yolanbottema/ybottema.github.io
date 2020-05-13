@@ -55,13 +55,29 @@ p{
 }
 
 /* OVER */
+
 .about-txt{
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 8%;
     /* border: 1px solid red; */
-    font-size: 40px;
+    font-size: 36px;
     text-align: justify;
+}
+
+.about-pic{
+    width: 50%;
+    height: 50%;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+
+.about-foto{
+    width: 60%;
+    height: 60%;
+}
+
+.about-txt2{
+    font-size: 18px;
 }
 
 /* WORK */

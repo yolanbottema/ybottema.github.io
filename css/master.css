@@ -185,3 +185,8 @@ a .fas:hover, .fab:hover {
     color: #9d7a94;
     transition: 0.3s;
 }
+
+#icon{
+    width: 40px;
+    display: inline-block;
+}

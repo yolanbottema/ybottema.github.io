@@ -171,6 +171,7 @@ padding-top: 10px; */
 
 .footer-icons{
     text-align: center;
+
 }
 
 .fab, .fas{
@@ -185,4 +186,3 @@ a .fas:hover, .fab:hover {
     color: #9d7a94;
     transition: 0.3s;
 }
-

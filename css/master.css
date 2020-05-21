@@ -195,6 +195,16 @@ p{
     grid-row: 4;
 }
 
+.work-9{
+    grid-column: 1/5;
+    grid-row: 5;
+}
+
+.work-10{
+    grid-column: 5/13;
+    grid-row: 5;
+}
+
 @media screen and (min-width: 320px) and (max-width: 640px) {
     .work-grid{
         margin: 5%;
@@ -246,6 +256,16 @@ p{
     .work-8{
         grid-column: 1;
         grid-row: 8;
+    }
+
+    .work-9{
+        grid-column: 1;
+        grid-row: 9;
+    }
+
+    .work-10{
+        grid-column: 1;
+        grid-row: 10;
     }
 }
 
@@ -330,6 +350,83 @@ p{
     }
     
 }
+
+/* website polragroup */
+
+.website-polragroup{
+    width: 70%;
+    height: 70%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 15%;
+}
+
+.polragroup-img{
+    width: 100%;
+    height: 100%;
+}
+
+.about-polragroup{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+    text-align: justify;
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+    .website-polragroup{
+        width: 90%;
+        height: 90%;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+    }
+    
+    .about-polragroup{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 59%;
+        text-align: justify;
+    }
+}
+
+.website-delta{
+    width: 70%;
+    height: 70%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 15%;
+}
+
+.delta-img{
+    width: 100%;
+    height: 100%;
+}
+
+.about-delta{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+    text-align: justify;
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+    .website-delta{
+        width: 90%;
+        height: 90%;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+    }
+    
+    .about-delta{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 59%;
+        text-align: justify;
+    }
+}
+
 /* FOOTER */
 .footer{ 
 height: 75px;

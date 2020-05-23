@@ -290,7 +290,7 @@ p{
     text-align: justify;
 }
 
-.link-infographic{
+.link{
     text-decoration: none;
     color: black;
     border-bottom: 2px solid #9d7a94;
@@ -427,6 +427,13 @@ p{
     }
 }
 
+/* CONTACT */
+
+.contact-txt{
+    margin-left: 35%;
+    margin-bottom: 2%;
+    text-align: justify; 
+}
 /* FOOTER */
 .footer{ 
 height: 75px;

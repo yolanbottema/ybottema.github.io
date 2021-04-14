@@ -303,7 +303,7 @@ p{
 .link{
     text-decoration: none;
     color: black;
-    border-bottom: 2px solid #9d7a94;
+    border-bottom: 2px solid #5941DC;
 }
 
 @media screen and (min-width: 320px) and (max-width: 640px) {
@@ -486,7 +486,7 @@ p{
 .footer{ 
 height: 75px;
 width: 100%;
-background-color: #bbd0b6;
+background-color: #A8C69F;
 /* bottom: 0;
 right: 0;
 left: 0;
@@ -514,7 +514,7 @@ padding-top: 10px; */
 }
 
 a .fas:hover, .fab:hover {
-    color: #9d7a94;
+    color: #5941DC;
     transition: 0.3s;
 }
 

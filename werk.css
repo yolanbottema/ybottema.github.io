@@ -1,0 +1,64 @@
+  .wrapper {
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap;   
+    margin-top: 7.5%;
+  }
+
+.card{
+    width: 40vw;
+    height: 50vh;
+    margin: 3%;
+}
+
+/* .delta{
+
+}
+
+.polra{
+
+}
+
+.klimaat{
+
+}
+
+.sawadee{
+
+} */
+
+img{
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .4s ease-in-out;  
+}
+
+img:hover {
+    filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.01);
+    }
+
+/* MOBILE */
+@media screen and (min-width: 320px) and (max-width: 640px){
+    .wrapper{
+        /* display: flex;
+        flex-wrap: nowrap; */
+        flex-direction: column;
+        /* overflow-x: hidden; */
+        justify-content: center;
+        margin: 0;
+        height: auto;
+        width: auto;
+        clear: top;
+    }
+
+    .card{
+        width: 90vw;
+        height: 50vh;
+        min-height: 0; 
+        margin-left: 4.5%;
+        /* margin-top: -20%;
+        margin-bottom: -20%; */
+    }
+}

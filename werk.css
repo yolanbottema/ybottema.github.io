@@ -3,10 +3,11 @@
     overflow-x: auto;
     flex-wrap: nowrap;   
     margin-top: 7.5%;
+    gap: 5%;
   }
 
 .card{
-    width: 40vw;
+    width: 30vw;
     height: 50vh;
     margin: 3%;
 }
@@ -24,6 +25,10 @@
 }
 
 .sawadee{
+
+} */
+
+/* .klimaat{
 
 } */
 

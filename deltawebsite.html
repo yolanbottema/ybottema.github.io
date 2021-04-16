@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="media/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/typefaces.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-PLZWGP59EE"></script>
     <script>
@@ -41,17 +42,21 @@
             </label>
         </ul>
     </div>
+    <div class="delta-flex">
+        <div class="about-delta">
+            <p class="m-body">Deze website is gemaakt in het eerste jaar van de studie Geo, Media & Design. De opdracht
+                was om een eigen
+                website te programmeren waarbij er twee urban delta's vergeleken moesten worden. Bezoek de website over
+                de
+                <a class="link" href="https://delta.yolanbottema.nl/" target=_blank>urban delta's.
+                </a>
+            </p>
+        </div>
 
-    <div class="website-delta">
-        <img class="delta-img" src="media/work-2.png" alt="website urban delta's">
-    </div>
+        <div class="foto-delta">
+            <img class="delta-img" src="media/work-2.png" alt="website urban delta's">
+        </div>
 
-    <div class="about-delta">
-        <p>Deze website is gemaakt in het eerste jaar van de studie Geo, Media & Design. De opdracht was om een eigen
-            website te programmeren waarbij er twee urban delta's vergeleken moesten worden. Bezoek de website over de
-            <a class="link" href="https://delta.yolanbottema.nl/" target=_blank>urban delta's
-            </a>.
-        </p>
     </div>
 
     <footer class="footer">
@@ -67,5 +72,18 @@
 </body>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/ea176faa6e.js" crossorigin="anonymous"></script>
+<script>
+    var mouseWheelEvt = function (event) {
+        if (document.body.doScroll)
+            document.body.doScroll(event.wheelDelta > 0 ? "left" : "right");
+        else if ((event.wheelDelta || event.detail) > 0)
+            document.body.scrollLeft -= 10;
+        else
+            document.body.scrollLeft += 10;
+
+        return false;
+    }
+    document.body.addEventListener("mousewheel", mouseWheelEvt);
+</script>
 
 </html>

@@ -17,42 +17,17 @@
     max-width: 29vw !important;
     height: 49vh !important;
 }
-/* .card2{ */
-    /* width: 30vw;
-    height: 50vh; */
-    /* max-width: 29vw;
-    height: 49vh;
-    margin-top: 6%; */
-    
-/* } */
-/* .delta{
-
-}
-
-.polra{
-
-}
-
-.klimaat{
-
-}
-
-.sawadee{
-
-} */
-
-/* .klimaat{
-
-} */
 
 img{
     filter: gray;
+    transition: all .4s ease-in-out;
     -webkit-filter: grayscale(1);
     -webkit-transition: all .4s ease-in-out;  
 }
 
 img:hover {
     filter: none;
+    transform: scale(1.01);
       -webkit-filter: grayscale(0);
       -webkit-transform: scale(1.01);
 }

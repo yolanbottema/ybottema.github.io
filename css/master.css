@@ -6,6 +6,7 @@
 
 html {
     scroll-behavior: smooth;
+    min-height: 100%;
 }
 
 li {
@@ -16,17 +17,11 @@ li {
     display: inline;
 }
 
-p {
-    font-size: 14px;
-    font-weight: 400;
-}
-
-@media screen and (min-width: 320px) and (max-width: 640px) {}
-
 /* HOMEPAGE */
 
 .titel {
-    height: 801px;
+    /* height: 801px; */
+    height: 82.5vh;
     width: 100%;
 }
 
@@ -40,41 +35,35 @@ p {
     width: auto;
     margin-left: 70%;
     margin-top: 5%;
-
 }
 
 .titel-txt {
     position: absolute;
-    color: black;
     text-align: center;
     top: 20%;
     left: 10%;
-    font-size: 36px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 640px) {
     .titel {
-        height: 481px;
+        height: 80vh;
         width: 100%;
     }
     .titel-img {
         width: 50%;
         height: 50%;
+        margin-top: 10%;
+    }
+    .titel-txt {
+        position: absolute;
+        text-align: center;
+        left: 2%;
     }
     .img-illustration {
         height: 100%;
         width: auto;
         margin-left: 45%;
-        margin-top: 110%;
-        
-    }
-    .titel-txt {
-        position: absolute;
-        color: black;
-        text-align: center;
-        /* top: 12%; */
-        left: 2%;
-        font-size: 24px;
+        margin-top: 120%;
     }
 }
 
@@ -89,21 +78,10 @@ p {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 5%;
-    /* margin-bottom: 5%; */
-    /* border: 1px solid red; */
     text-align: justify;
 }
 
-.about-txt1 {
-    font-size: 36px;
-}
-
-.about-txt2 {
-    font-size: 18px;
-}
-
 .about-pic {
-    /* border: 1px solid red; */
     margin-right: 5%;
     margin-bottom: 14.5%;
     margin-top: 5%;
@@ -122,22 +100,13 @@ p {
     .about-txt {
         margin-left: 5%;
         margin-right: 5%;
-        /* border: 1px solid red; */
         text-align: justify;
     }
     .about-txt1 {
-        font-size: 30px;
         margin-top: 5%;
     }
-    .about-pic{
+    .about-pic {
         margin-left: 4%;
-    }
-    /* .about-foto{
-        width: 70%;
-        height: 70%;
-    } */
-    .about-txt2 {
-        font-size: 16px;
     }
 }
 
@@ -181,45 +150,8 @@ p {
     .about-infographic {
         margin-left: 5%;
         margin-right: 5%;
-        margin-top: 2%;
-        margin-bottom: 5%;
-    }
-}
-
-/* kalverpolder infopaneel */
-
-.kalverpolder-infopaneel {
-    width: 55%;
-    height: 55%;
-    margin-top: 5%;
-    margin-bottom: 2%;
-    margin-left: 25%;
-}
-
-.kalverpolder-img {
-    width: 100%;
-    height: 100%;
-}
-
-.about-infopaneel {
-    margin-left: 25%;
-    margin-right: 20%;
-    ;
-    margin-bottom: 2%;
-    text-align: justify;
-}
-
-@media screen and (min-width: 320px) and (max-width: 640px) {
-    .kalverpolder-infopaneel {
-        width: 90%;
-        height: 90%;
-        margin-left: 5%;
-    }
-    .about-infopaneel {
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: 5%;
-        margin-bottom: 22%;
+        margin-top: 10%;
+        margin-bottom: 15%;
     }
 }
 
@@ -250,25 +182,29 @@ p {
         width: 90%;
         height: 90%;
         margin-top: 2%;
-        margin-bottom: 5%;
+        margin-bottom: 25%;
         margin-left: 5%;
     }
     .about-polragroup {
         margin-left: 5%;
         margin-right: 5%;
-        margin-bottom: 59%;
+        margin-bottom: 18%;
+        margin-top: 5%;
         text-align: justify;
     }
 }
 
 /* website delta */
 
-.website-delta {
-    width: 70%;
-    height: 70%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 15%;
+.delta-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.foto-delta {
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .delta-img {
@@ -277,25 +213,29 @@ p {
 }
 
 .about-delta {
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
     text-align: justify;
 }
 
 @media screen and (min-width: 320px) and (max-width: 640px) {
-    .website-delta {
-        width: 90%;
-        height: 90%;
-        margin-top: 2%;
-        margin-bottom: 5%;
-        margin-left: 5%;
+    .delta-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foto-delta {
+        margin-left: 10%;
+        margin-bottom: 20%;
+    }
+
+    .delta-img{
+        width: 100%;
+        height: 100%;
     }
     .about-delta {
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 59%;
-        text-align: justify;
+        margin-bottom: 5%;
     }
 }
 
@@ -344,23 +284,28 @@ p {
     text-align: justify;
 }
 
+@media screen and (min-width: 320px) and (max-width: 640px) {
+    .contact-txt {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 15%;
+        margin-bottom: 15%;
+        text-align: justify;
+    }
+}
+
 /* FOOTER */
 
 .footer {
     height: 75px;
     width: 100%;
     background-color: #A8C69F;
-    /* bottom: 0;
-right: 0;
-left: 0;
-position: absolute;
-text-align: center;
-padding-top: 10px; */
+    position: absolute;
 }
 
 .footer-txt {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0.5%;
 }
 
 .footer-icons {
@@ -380,10 +325,9 @@ a .fas:hover, .fab:hover {
     transition: 0.3s;
 }
 
-@media screen and (min-width: 320px) and (max-width: 640px) {
-    .footer{
+/* @media screen and (min-width: 320px) and (max-width: 640px) {
+    .footer {
         margin-top: 47%;
+        position: absolute;
     }
-}
-
-/* CONTACT */
+} */

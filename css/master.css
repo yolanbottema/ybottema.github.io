@@ -121,11 +121,11 @@ li {
     flex-direction: row;
 }
 .klimaat-infographic {
-    margin-right: 10%;
+    margin-right: 20%;
     margin-top: 5%;
     margin-bottom: 8%;
-    height: 60vh;
-    width: 60vw;
+    height: 65vh;
+    width: 100vw;
 }
 
 #klimaat-img {
@@ -134,8 +134,8 @@ li {
 }
 
 .about-infographic{
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 5%;
     text-align: justify;
 }

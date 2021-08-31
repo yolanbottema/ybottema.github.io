@@ -353,19 +353,14 @@ li {
     flex-direction: row;
 }
 
-.insta-wakibi {
+.foto-wakibi {
     margin-right: 10%;
     margin-top: 5%;
     margin-bottom: 8%;
-    height: 40vw;
-    width: auto;
+    height: 70vh;
+    width: 80vw;
 }
 
-.foto-wakibi {
-    margin-right: 8%;
-    margin-top: 5%;
-    margin-bottom: 9%;
-}
 
 .wakibi-img {
     width: 100%;
@@ -373,8 +368,8 @@ li {
 }
 
 .about-wakibi {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 5%;
     text-align: justify;
 }
@@ -385,15 +380,12 @@ li {
         flex-direction: column;
     }
 
-    .insta-wakibi {
-        /* margin-right: 10%;
+    .foto-wakibi {
+        margin-right: 10%;
         margin-top: 5%;
         margin-bottom: 8%;
-        height: 40vw;
-        width: auto; */
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 110%;
+        height: 60vh;
+        width: auto;
     }
 
     .foto-wakibi {

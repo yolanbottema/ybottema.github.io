@@ -33,8 +33,8 @@ li {
 }
 
 .img-illustration {
-    height: 100%;
-    width: auto;
+    height: 60vh;
+    width: 50vh;
     margin-left: 70%;
     margin-top: 5%;
 }
@@ -185,7 +185,7 @@ li {
 .about-polragroup {
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 10%;
+    margin-top: 5%;
     text-align: justify;
 }
 
@@ -220,7 +220,7 @@ li {
 .foto-delta {
     margin-right: 10%;
     margin-top: 5%;
-    margin-bottom: 11%;
+    margin-bottom: 14.5%;
 }
 
 .delta-img {
@@ -231,7 +231,7 @@ li {
 .about-delta {
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 10%;
+    margin-top: 5%;
     text-align: justify;
 }
 

@@ -263,9 +263,9 @@ li {
 }
 
 .foto-webatlas {
-    margin-right: 10%;
+    margin-right: 8%;
     margin-top: 5%;
-    margin-bottom: 14.5%;
+    margin-bottom: 9%;
 }
 
 .webatlas-img {
@@ -307,11 +307,11 @@ li {
 }
 
 .duurzaam-infographic {
-    margin-right: 10%;
+    margin-right: 20%;
     margin-top: 5%;
-    margin-bottom: 6.5%;
-    height: 62vh;
-    width: 80vw;
+    margin-bottom: 10%;
+    height: 55vh;
+    width: 100vw;
 }
 
 #duurzaam-img {
@@ -320,8 +320,8 @@ li {
 }
 
 .about-infographic-s {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 5%;
     text-align: justify;
 }
@@ -342,6 +342,67 @@ li {
         margin-left: 5%;
         margin-right: 5%;
         margin-top: 2%;
+        margin-bottom: 5%;
+    }
+}
+
+/* wakibi */
+
+.wakibi-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.insta-wakibi {
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    height: 40vw;
+    width: auto;
+}
+
+.insta-wakibi-2 {
+    /* margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    height: 40vw;
+    width: auto; */
+}
+
+.foto-wakibi {
+    margin-right: 8%;
+    margin-top: 5%;
+    margin-bottom: 9%;
+}
+
+.wakibi-img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-wakibi {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    text-align: justify;
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+    .webatlas-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foto-webatlas {
+        margin-left: 10%;
+        margin-bottom: 20%;
+    }
+
+    .webatlas-img{
+        width: 100%;
+        height: 100%;
+    }
+    .about-webatlas {
         margin-bottom: 5%;
     }
 }

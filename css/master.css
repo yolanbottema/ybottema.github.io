@@ -85,7 +85,8 @@ li {
 
 .about-pic {
     margin-right: 5%;
-    margin-bottom: 14.5%;
+    /* margin-bottom: 14.5%; */
+    margin-bottom: 8%;
     margin-top: 5%;
 }
 
@@ -304,7 +305,7 @@ li {
 
 .contact-txt {
     margin-left: 35%;
-    margin-bottom: 2%;
+    margin-bottom: 44.5%;
     text-align: justify;
 }
 
@@ -329,7 +330,7 @@ li {
 
 .footer-txt {
     text-align: center;
-    margin-top: 0.5%;
+    /* margin-top: 0.5%; */
 }
 
 .footer-icons {

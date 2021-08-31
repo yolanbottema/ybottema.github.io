@@ -8,14 +8,15 @@
   }
 
 .card{
-    width: 40vw;
+    width: 50vh;
     height: 50vh;
     margin: 3%;
 }
 
 .klimaat{
-    max-width: 29vw !important;
-    height: 49vh !important;
+    max-width: 50vh !important;
+    height: 50vh !important;
+    margin-top: 4%;
 }
 
 img{

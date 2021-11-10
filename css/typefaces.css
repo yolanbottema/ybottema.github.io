@@ -15,6 +15,13 @@
     line-height: 40px;
 }
 
+.s-header {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 24px;
+}
+
 /* body */
 
 .m-body {

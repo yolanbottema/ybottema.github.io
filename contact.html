@@ -15,36 +15,31 @@
     <link rel="stylesheet" href="css/typefaces.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-PLZWGP59EE"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-PLZWGP59EE');
-    </script>
-
+    <script src="analytics.js"></script>
     <title>Contact - Yolan Bottema</title>
 </head>
 
 <body>
-    <div class="header">
-        <a href="index.html"><img class="logo" src="media/logo.svg" alt="logo" /></a>
-        <input type="checkbox" id="checkbox">
-        <label for="checkbox" class="show-menu-btn">
-          <i class="fas fa-bars"></i>
-        </label>
-
-        <ul class="menu">
-            <li><a href="index.html">HOME<span style="color: #f4aa00;">.</span></a></li>
-            <li><a href="werk.html">WERK<span style="color: #f4aa00;">.</span></a></li>
-            <li><a href="over.html">OVER<span style="color: #f4aa00;">.</span></a></li>
-            <li><a class="active" href="contact.html">CONTACT<span style="color: #f4aa00;">.</span></a></li>
-
-            <label for="checkbox" class="hide-menu-btn">
-                <i class="fas fa-times"></i>
-              </label>
-            </ul>
-          </div>
+  <nav class="navbar">
+    <!-- logo -->
+    <div class="logo">
+      <a href="index.html"><img class="logo" src="media/logo.svg" alt="logo" /></a>
+    </div>
+    <!-- nav menu -->
+    <ul class="nav-menu">
+      <!-- checkbox -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+      <!-- menu items -->
+      <div class="menu">
+        <li><a class="active" href="index.html">HOME<span style="color: #f4aa00;">.</span></a></li>
+        <li class="werk"><a href="werk.html">WERK<span style="color: #f4aa00;">.</span></a>
+        </li>
+        <li><a href="over.html">OVER<span style="color: #f4aa00;">.</span></a></li>
+        <li><a href="contact.html">CONTACT<span style="color: #f4aa00;">.</span></a></li>
+      </div>
+    </ul>
+  </nav>
 
     <div class="contact-txt">
         <p class="m-body">Wil je contact opnemen met mij? Stuur dan een mailtje naar <a class="link"

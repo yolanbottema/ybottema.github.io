@@ -10,6 +10,7 @@
 html {
     scroll-behavior: smooth;
     min-height: 100%;
+    background-color:#f6f5f1;
 }
 
 li {
@@ -36,15 +37,15 @@ li {
 .img-illustration {
     height: 60vh;
     width: 60vh;
-    margin-left: 70%;
-    margin-top: 5%;
+    margin-left: 50%;
+    margin-top: 15%;
 }
 
 .titel-txt {
     position: absolute;
     text-align: center;
     top: 20%;
-    left: 10%;
+    left: 30%;
 }
 
 

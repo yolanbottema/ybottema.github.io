@@ -221,9 +221,19 @@ li {
 }
 
 .foto-delta {
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 3%;
     margin-top: 5%;
-    margin-bottom: 14.5%;
+    margin-bottom: 8%;
+    width: 50%;
+}
+
+.foto-delta-2 {
+    margin-left: 5%;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    width: 20%;
 }
 
 .delta-img {
@@ -232,10 +242,15 @@ li {
 }
 
 .about-delta {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 5%;
     text-align: justify;
+    width: 50vw;
+}
+
+a{
+    color: #191414;
 }
 
 @media (max-width: 768px) {
@@ -245,8 +260,21 @@ li {
     }
 
     .foto-delta {
+        margin-right: 10%;
+        margin-top: 5%;
+        margin-bottom: 8%;
         margin-left: 10%;
-        margin-bottom: 20%;
+        height: 100%;
+        width: auto;
+    }
+
+    .foto-delta-2 {
+        margin-right: 10%;
+        margin-top: 5%;
+        margin-bottom: 8%;
+        margin-left: 10%;
+        height: 100%;
+        width: auto;
     }
 
     .delta-img{
@@ -255,6 +283,8 @@ li {
     }
     .about-delta {
         margin-bottom: 5%;
+        margin-left: 10%;
+        width: 80vw;
     }
 }
 
@@ -310,14 +340,15 @@ li {
 }
 
 .duurzaam-infographic {
-    margin-right: 20%;
+    margin-left: 5%;
+    margin-right: 3%;
     margin-top: 5%;
-    margin-bottom: 11%;
-    height: 55vh;
-    width: 100vw;
+    margin-bottom: 8%;
+    /* height: 100vh; */
+    width: 50%;
 }
 
-#duurzaam-img {
+.duurzaam-img {
     width: 100%;
     height: 100%;
 }
@@ -327,6 +358,26 @@ li {
     margin-right: 10%;
     margin-top: 5%;
     text-align: justify;
+    width: 50vw;
+}
+
+.filmpje-sawadee{
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    width: 59%;
+    position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+.filmpje-sawadee iframe{
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 @media (max-width: 768px) {
@@ -341,12 +392,18 @@ li {
         margin-left: 5%;
         margin-bottom: 5%;
     }
-    .about-infographic {
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: 2%;
+    .about-infographic-s {
         margin-bottom: 5%;
+        margin-left: 10%;
+        width: 80vw;
     }
+
+    .filmpje-sawadee{
+        margin-bottom: 5%;
+        margin-left: 5%;
+        width: 90%;
+    }
+
 }
 
 /* wakibi */
@@ -356,12 +413,37 @@ li {
     flex-direction: row;
 }
 
-.foto-wakibi {
+.about-wakibi {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    text-align: justify;
+    width: 50vw;
+}
+
+.info-project{
     margin-right: 10%;
     margin-top: 5%;
     margin-bottom: 8%;
-    height: 70vh;
-    width: 80vw;
+    width: 30vw;
+}
+
+.foto-wakibi {
+    margin-left: 5%;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    width: 30%;
+    border: solid white 10px;
+}
+
+.foto-wakibi-2 {
+    /* margin-left: 2%; */
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    width: 59%;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .wakibi-img {
@@ -369,12 +451,6 @@ li {
     height: 100%;
 }
 
-.about-wakibi {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5%;
-    text-align: justify;
-}
 
 
 
@@ -388,14 +464,24 @@ li {
         margin-right: 10%;
         margin-top: 5%;
         margin-bottom: 8%;
-        height: 60vh;
+        margin-left: 10%;
+        height: 100%;
         width: auto;
     }
 
+    .foto-wakibi-2 {
+        margin-right: 10%;
+        margin-top: 5%;
+        margin-bottom: 8%;
+        margin-left: 10%;
+        height: 100%;
+        width: auto;
+    }
+/* 
     .foto-wakibi {
         margin-left: 10%;
         margin-bottom: 20%;
-    }
+    } */
 
     .wakibi-img{
         width: 100%;
@@ -403,6 +489,12 @@ li {
     }
     .about-wakibi {
         margin-bottom: 5%;
+        margin-left: 10%;
+        width: 80vw;
+    }
+
+    .info-project{
+        margin-left: 10%;
     }
 }
 
@@ -429,6 +521,13 @@ li {
     height: 75px;
     width: 100%;
     background-color: #f4aa00;
+    position: absolute;
+}
+
+.footer-work{
+    height: 75px;
+    width: 100%;
+    background-color: #f6f5f1;
     position: absolute;
 }
 

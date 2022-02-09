@@ -142,7 +142,7 @@ li {
         margin-right: 10%;
         margin-top: 5%;
         margin-bottom: 8%;
-        width: 50vw;
+        width: 100vw;
     }
 }
 /* infographic-klimaat */
@@ -430,11 +430,6 @@ li {
 
 /* wakibi */
 
-.wakibi-flex {
-    display: flex;
-    flex-direction: row;
-}
-
 .about-wakibi {
     margin-left: 10%;
     margin-right: 10%;
@@ -465,9 +460,6 @@ li {
     width: 100%;
     height: 100%;
 }
-
-
-
 
 @media (max-width: 768px) {
 
@@ -501,6 +493,68 @@ li {
 
     .info-project{
         margin-left: 10%;
+    }
+}
+
+/* muziek */
+
+.about-muziek {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    text-align: justify;
+    width: 50vw;
+}
+
+.muziek-mobiel{
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    width: 60%;
+}
+
+.muziek {
+    margin-left: 5%;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    width: 40%;
+}
+
+.muziek-img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+
+    .muziek {
+        margin-right: 10%;
+        margin-top: 5%;
+        margin-bottom: 8%;
+        margin-left: 10%;
+        height: 100%;
+        width: auto;
+    }
+
+    .muziek-mobiel {
+        margin-right: 10%;
+        margin-top: 5%;
+        margin-bottom: 8%;
+        margin-left: 10%;
+        height: 100%;
+        width: auto;
+    }
+
+    .muziek-img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-muziek {
+        margin-bottom: 5%;
+        margin-left: 10%;
+        width: 80vw;
     }
 }
 

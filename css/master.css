@@ -99,10 +99,6 @@ li {
 }
  
 @media (max-width: 768px) {
-    .about-flex {
-        display: flex;
-        flex-direction: column;
-    }
     .about-txt {
         margin-left: 5%;
         margin-right: 5%;
@@ -118,17 +114,53 @@ li {
 
 /* WORK */
 
-/* infographic-klimaat */
-.infographic-flex{
+.link {
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid #f4aa00;
+}
+
+.flex{
     display: flex;
     flex-direction: row;
 }
-.klimaat-infographic {
-    margin-right: 20%;
+
+.info-project{
+    margin-right: 10%;
     margin-top: 5%;
     margin-bottom: 8%;
-    height: 65vh;
-    width: 100vw;
+    width: 30vw;
+}
+
+@media (max-width: 768px) {
+    .flex{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-project{
+        margin-right: 10%;
+        margin-top: 5%;
+        margin-bottom: 8%;
+        width: 50vw;
+    }
+}
+/* infographic-klimaat */
+
+.klimaat-infographic {
+    margin-left: 5%;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    width: 50%;
+}
+
+.magazine-infographic {
+    margin-left: 5%;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    width: 50%;
 }
 
 #klimaat-img {
@@ -141,19 +173,11 @@ li {
     margin-right: 10%;
     margin-top: 5%;
     text-align: justify;
-}
-
-.link {
-    text-decoration: none;
-    color: black;
-    border-bottom: 2px solid #f4aa00;
+    width: 50vw;
 }
 
 @media (max-width: 768px) {
-    .infographic-flex{
-        display: flex;
-        flex-direction: column;
-    }
+
     .klimaat-infographic {
         width: 90%;
         height: 90%;
@@ -161,23 +185,29 @@ li {
         margin-bottom: 5%;
     }
     .about-infographic {
-        margin-left: 5%;
+        margin-bottom: 5%;
+        margin-left: 10%;
+        width: 80vw;
+    }
+
+    .magazine-infographic{
         margin-right: 5%;
-        margin-top: 10%;
-        margin-bottom: 15%;
+        margin-top: 5%;
+        margin-bottom: 8%;
+        margin-left: 5%;
+        height: 100%;
+        width: auto;
     }
 }
 
 /* website polragroup */
-.polra-flex{
-    display: flex;
-    flex-direction: row;
-}
 
 .website-polragroup {
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 3%;
     margin-top: 5%;
-    margin-bottom: 12%;
+    margin-bottom: 8%;
+    width: 50%;
 }
 
 .polragroup-img {
@@ -186,17 +216,23 @@ li {
 }
 
 .about-polragroup {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 5%;
     text-align: justify;
+    width: 50vw;
+}
+
+.rapport-polragroup {
+    margin-left: 5%;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    width: 20%;
 }
 
 @media (max-width: 768px) {
-    .polra-flex{
-        display: flex;
-        flex-direction: column;
-    }
+
     .website-polragroup {
         width: 90%;
         height: 90%;
@@ -205,20 +241,22 @@ li {
         margin-left: 5%;
     }
     .about-polragroup {
-        margin-left: 5%;
+        margin-bottom: 5%;
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .rapport-polragroup{
         margin-right: 5%;
-        margin-bottom: 18%;
         margin-top: 5%;
-        text-align: justify;
+        margin-bottom: 8%;
+        margin-left: 5%;
+        height: 100%;
+        width: auto;
     }
 }
 
 /* website delta */
-
-.delta-flex {
-    display: flex;
-    flex-direction: row;
-}
 
 .foto-delta {
     margin-left: 5%;
@@ -249,15 +287,7 @@ li {
     width: 50vw;
 }
 
-a{
-    color: #191414;
-}
-
 @media (max-width: 768px) {
-    .delta-flex {
-        display: flex;
-        flex-direction: column;
-    }
 
     .foto-delta {
         margin-right: 10%;
@@ -290,15 +320,12 @@ a{
 
 /* website webatlas */
 
-.webatlas-flex {
-    display: flex;
-    flex-direction: row;
-}
-
 .foto-webatlas {
-    margin-right: 8%;
+    margin-left: 5%;
+    margin-right: 3%;
     margin-top: 5%;
-    margin-bottom: 9%;
+    margin-bottom: 8%;
+    width: 50%;
 }
 
 .webatlas-img {
@@ -307,21 +334,22 @@ a{
 }
 
 .about-webatlas {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 5%;
     text-align: justify;
+    width: 50vw;
 }
 
 @media (max-width: 768px) {
-    .webatlas-flex {
-        display: flex;
-        flex-direction: column;
-    }
 
     .foto-webatlas {
+        margin-right: 10%;
+        margin-top: 5%;
+        margin-bottom: 8%;
         margin-left: 10%;
-        margin-bottom: 20%;
+        height: 100%;
+        width: auto;
     }
 
     .webatlas-img{
@@ -330,14 +358,12 @@ a{
     }
     .about-webatlas {
         margin-bottom: 5%;
+        margin-left: 10%;
+        width: 80vw;
     }
 }
 
 /* infographic-duurzaam */
-.sawadee-flex{
-    display: flex;
-    flex-direction: row;
-}
 
 .duurzaam-infographic {
     margin-left: 5%;
@@ -381,10 +407,6 @@ a{
 }
 
 @media (max-width: 768px) {
-    .sawadee-flex{
-        display: flex;
-        flex-direction: column;
-    }
 
     .duurzaam-infographic {
         width: 90%;
@@ -421,13 +443,6 @@ a{
     width: 50vw;
 }
 
-.info-project{
-    margin-right: 10%;
-    margin-top: 5%;
-    margin-bottom: 8%;
-    width: 30vw;
-}
-
 .foto-wakibi {
     margin-left: 5%;
     margin-right: 3%;
@@ -455,10 +470,6 @@ a{
 
 
 @media (max-width: 768px) {
-    .wakibi-flex {
-        display: flex;
-        flex-direction: column;
-    }
 
     .foto-wakibi {
         margin-right: 10%;
@@ -477,11 +488,6 @@ a{
         height: 100%;
         width: auto;
     }
-/* 
-    .foto-wakibi {
-        margin-left: 10%;
-        margin-bottom: 20%;
-    } */
 
     .wakibi-img{
         width: 100%;

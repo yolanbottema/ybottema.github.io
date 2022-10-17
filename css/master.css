@@ -497,9 +497,14 @@ li {
     width: 40%;
 }
 
+.muziek-img1 {
+    width: 106.1%;
+    height: auto;
+}
+
 .muziek-img {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 @media (max-width: 768px) {
@@ -520,6 +525,11 @@ li {
         margin-left: 10%;
         height: 100%;
         width: auto;
+    }
+
+    .muziek-img1{
+        width: 100%;
+        height: 100%;
     }
 
     .muziek-img{
